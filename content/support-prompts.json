@@ -1,0 +1,77 @@
+{
+  "access_policy": "Offer each support independently to everyone. Teacher/SLSO may demonstrate it; do not assign diagnostic modes or fixed tiers.",
+  "strategy": [
+    "Locate",
+    "Compare",
+    "Recommend and explain"
+  ],
+  "guided_strip": [
+    {
+      "label": "Find a clue",
+      "instruction": "Read or listen to one location detail. Point to the detail you want to use."
+    },
+    {
+      "label": "Match an action",
+      "instruction": "Choose two possible actions. Find their numbers for this location."
+    },
+    {
+      "label": "Explain",
+      "instruction": "Say, show or note why one action fits and what it might miss or depend on."
+    }
+  ],
+  "number_support": {
+    "instruction": "Read the selected effect at each location. Add those three numbers once.",
+    "example_rule": "Show an expression from the learner’s actual arrangement. Never insert the highest-total arrangement as the default.",
+    "total_label": "Total simulated reduction",
+    "incomplete_total_label": "So far — choose all three locations for a complete total",
+    "remaining_label": "Pieces left in this simulation",
+    "remaining_policy": "Optional extra detail: 300 minus the complete plan total. Do not make subtraction a new core requirement.",
+    "tile_policy": "Provide labelled location/effect tiles for print and the same labels on screen. Automatic calculation does not select an action."
+  },
+  "reasoning_prompts": [
+    "Which location detail supports this action?",
+    "Which rubbish might this action miss?",
+    "What needs to keep happening for this action to work?",
+    "Who needs to take part?",
+    "What changes if you move this action to another location?"
+  ],
+  "comparison_prompts": [
+    "What is the same in your two plans? What is different?",
+    "Which plan has the larger simulated reduction?",
+    "What do you gain or give up with that plan?",
+    "Which location clue helps explain your preference?"
+  ],
+  "frames": [
+    "This action fits ___ because the description says ___.",
+    "At ___, this action reduces ___ pieces in the simulation.",
+    "One limitation might be ___ because ___.",
+    "It depends on ___.",
+    "We prefer Plan ___ because ___, although ___."
+  ],
+  "collaboration_prompts": [
+    "Would you like to share a clue, a choice or a concern?",
+    "I build on that idea because ___.",
+    "I see it differently because the description says ___.",
+    "How did that idea affect our plan?"
+  ],
+  "depth_prompts": [
+    "Could you defend a plan with a smaller numerical reduction?",
+    "What extra information would help you decide?",
+    "Which part of your recommendation is certain in the simulation, and which part is your judgment?"
+  ],
+  "comparison_row_fields": [
+    "Location",
+    "Action",
+    "Simulated reduction",
+    "Why it fits",
+    "What it might miss or depend on"
+  ],
+  "focus_mode": "Show one location’s key points and the same location column for two learner-selected actions. Restore all information at any time. Never replace full content with a permanently reduced task.",
+  "guardrails": [
+    "In Explore/Test screens, prompts do not supply completed action-specific limitations.",
+    "Show worked solutions and limitations on the separate Answers for the teacher screen; do not automatically recommend or score them within Test your plan.",
+    "No reward, timer, ranking or diagnostic labels.",
+    "Do not make speaking, handwriting or dragging compulsory.",
+    "Group comparison scaffolds are not the separate individual exit slip."
+  ]
+}

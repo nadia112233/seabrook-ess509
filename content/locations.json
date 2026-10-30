@@ -1,0 +1,200 @@
+[
+  {
+    "id": "mall",
+    "name": "Shopping mall",
+    "short_name": "Mall",
+    "overview": "Takeaway shops, outdoor tables and a car park make this a busy place to eat and shop.",
+    "sections": [
+      {
+        "heading": "A place to eat and shop",
+        "text": "Seabrook Mall has takeaway shops beside an outdoor eating area. People buy food and drinks, sit at the tables and walk between the shops and the car park."
+      },
+      {
+        "heading": "Rubbish around the tables",
+        "text": "Plastic drink bottles, cups and food wrappers collect near the tables and uncovered public bins. These items come from food and drinks bought or brought here."
+      },
+      {
+        "heading": "The car park",
+        "text": "Loose rubbish is also found near the car park. Wind can move it towards a stormwater drain. This drain connects to Seabrook’s waterway."
+      },
+      {
+        "heading": "What the shops will try",
+        "text": "The shopkeepers are willing to serve customers who bring reusable bottles and food containers. Customers can choose whether to bring these items."
+      }
+    ],
+    "key_points": [
+      "Takeaway shops have an outdoor eating area and a car park.",
+      "Plastic bottles, cups and wrappers collect near tables and uncovered public bins.",
+      "Wind can move loose rubbish towards the car-park drain.",
+      "The drain connects to the waterway.",
+      "Shopkeepers will serve people who bring reusable bottles and food containers.",
+      "Customers choose whether to bring reusable items."
+    ],
+    "features": [
+      {
+        "id": "mall-tables",
+        "label": "Eating area",
+        "section_index": 1,
+        "visual_anchor": "Outdoor tables next to takeaway shopfronts, with a few recognisable plastic cups and wrappers."
+      },
+      {
+        "id": "mall-drain",
+        "label": "Car-park drain",
+        "section_index": 2,
+        "visual_anchor": "Small roadside drain on the mall car-park edge; use an enlarged inset if not visible in the map."
+      },
+      {
+        "id": "mall-shops",
+        "label": "Takeaway shops",
+        "section_index": 3,
+        "visual_anchor": "Shopfronts beside the tables; willingness to accept reusable items is supplied by text, not inferred from an invented sign."
+      }
+    ],
+    "map_alt": "Shopping mall with takeaway shops, outdoor tables, uncovered public bins and a car-park drain. Plastic litter lies near the eating area and bins.",
+    "fact_ids": [
+      "mall-activity",
+      "mall-items-and-bins",
+      "mall-wind",
+      "mall-drain",
+      "mall-shop-cooperation",
+      "mall-customer-choice"
+    ],
+    "closeup_image": "assets/locations/mall-closeup.webp"
+  },
+  {
+    "id": "beach",
+    "name": "Beach",
+    "short_name": "Beach",
+    "overview": "Weekend visitors use the beach entrance and spread out across the sand.",
+    "sections": [
+      {
+        "heading": "A busy weekend place",
+        "text": "Seabrook Beach is especially busy on weekends. Visitors bring drinks and packaged snacks. Some stay near the entrance, while others spend time farther along the sand."
+      },
+      {
+        "heading": "Where rubbish collects",
+        "text": "Plastic bottles, cups and wrappers are found near the entrance and across the beach. The existing public bins are beside the entrance."
+      },
+      {
+        "heading": "The shore",
+        "text": "Wind can move light rubbish across the sand. High tides can reach loose rubbish near the shore and carry it towards the ocean."
+      },
+      {
+        "heading": "Facilities at this location",
+        "text": "There is no stormwater drain on the beach itself. The stream shown elsewhere on Seabrook’s map is separate from the beach entrance and visitor area."
+      }
+    ],
+    "key_points": [
+      "The beach is busiest on weekends.",
+      "Visitors bring drinks and packaged snacks.",
+      "Plastic bottles, cups and wrappers collect near the entrance and farther across the sand.",
+      "Public bins are beside the entrance.",
+      "Wind and high tides can move loose rubbish towards the ocean.",
+      "There is no stormwater drain on the beach itself."
+    ],
+    "features": [
+      {
+        "id": "beach-entrance",
+        "label": "Beach entrance",
+        "section_index": 0,
+        "visual_anchor": "A clear footpath entering the sand, with bins beside the path."
+      },
+      {
+        "id": "beach-sand",
+        "label": "Across the sand",
+        "section_index": 1,
+        "visual_anchor": "A few pieces of plastic litter both near the entrance and farther along the beach."
+      },
+      {
+        "id": "beach-shore",
+        "label": "At the shore",
+        "section_index": 2,
+        "visual_anchor": "Readable waterline and light waves, not a flood or disaster scene."
+      },
+      {
+        "id": "beach-facilities",
+        "label": "Beach facilities",
+        "section_index": 3,
+        "visual_anchor": "Use entrance/shore context, not a non-existent drain or an ambiguous marker in open water."
+      }
+    ],
+    "map_alt": "Beach with an entrance path, bins beside the entrance, scattered plastic litter near the entrance and farther across the sand, and an ocean shoreline. There is no beach stormwater drain.",
+    "fact_ids": [
+      "beach-weekends",
+      "beach-visitors",
+      "beach-litter-spread",
+      "beach-bin-position",
+      "beach-weather-and-tides",
+      "beach-no-drain"
+    ],
+    "closeup_image": "assets/locations/beach-closeup.webp"
+  },
+  {
+    "id": "suburbs",
+    "name": "Suburbs",
+    "short_name": "Suburbs",
+    "overview": "Homes, footpaths and roadside drains line Seabrook’s residential streets.",
+    "sections": [
+      {
+        "heading": "The neighbourhood",
+        "text": "Seabrook’s suburbs contain homes, gardens, streets and footpaths. Residents already have household rubbish bins. The streets are also used by people walking and travelling through the area."
+      },
+      {
+        "heading": "Rubbish beside the road",
+        "text": "Plastic packaging collects along the kerb, especially after windy weather. The kerb is the raised edge between the footpath and the road. Packaging is found at several points along the streets."
+      },
+      {
+        "heading": "Rain and roadside drains",
+        "text": "When it rains, water can wash loose rubbish along the gutter into roadside stormwater drains. These drains connect to the waterway."
+      },
+      {
+        "heading": "Council access",
+        "text": "The main street drain is on council land. A council maintenance team can work at this drain and return to service equipment installed there."
+      }
+    ],
+    "key_points": [
+      "Homes, footpaths and streets make up the suburbs.",
+      "Residents already have household rubbish bins.",
+      "Plastic packaging collects at several points along the kerb, especially after wind.",
+      "The kerb is the raised edge beside the road.",
+      "Rain can wash rubbish into roadside drains connected to the waterway.",
+      "A council team can work at and return to the main street drain."
+    ],
+    "features": [
+      {
+        "id": "suburbs-homes",
+        "label": "Homes and bins",
+        "section_index": 0,
+        "visual_anchor": "Several ordinary homes and recognisable household wheelie bins."
+      },
+      {
+        "id": "suburbs-kerb",
+        "label": "Along the kerb",
+        "section_index": 1,
+        "visual_anchor": "Footpath, kerb and a few separated pieces of plastic packaging."
+      },
+      {
+        "id": "suburbs-drain",
+        "label": "Roadside drain",
+        "section_index": 2,
+        "visual_anchor": "A visible grate beside the road, outside the beach area."
+      },
+      {
+        "id": "suburbs-council",
+        "label": "Council access",
+        "section_index": 3,
+        "visual_anchor": "Public roadside drain location; council access is given in text, not a locked gate or private garden."
+      }
+    ],
+    "map_alt": "Residential streets with homes, household bins, footpaths and roadside drains. Plastic packaging is scattered along the kerb. The waterway is nearby.",
+    "fact_ids": [
+      "suburbs-activity",
+      "suburbs-existing-bins",
+      "suburbs-litter-spread",
+      "suburbs-kerb",
+      "suburbs-rain-and-drains",
+      "suburbs-council-access"
+    ],
+    "closeup_image": "assets/locations/suburbs-closeup.webp"
+  }
+]

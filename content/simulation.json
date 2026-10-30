@@ -1,0 +1,28 @@
+{
+  "fictional": true,
+  "duration_weeks": 4,
+  "baseline_per_location": 100,
+  "baseline_total": 300,
+  "location_order": [
+    "mall",
+    "beach",
+    "suburbs"
+  ],
+  "action_order": [
+    "bins",
+    "refill",
+    "cleanup",
+    "drain"
+  ],
+  "rules": {
+    "actions_per_location": 1,
+    "uses_per_action": 1,
+    "required_locations": 3,
+    "unused_actions": 1
+  },
+  "unit": "pieces of locally generated plastic litter prevented, collected or captured during four weeks",
+  "effects_source": "actions.json effects fields are the single source of numerical values; do not duplicate a second editable effects matrix.",
+  "counting": "Attribute a piece to its source location once. Exclude imported pieces from the receiving location’s baseline. Add effects only for the three selected action/location pairs.",
+  "interpretation": "These are invented local litter-reduction counts, not empirical forecasts or measured quantities kept out of the ocean.",
+  "post_trial": "No effect estimates beyond the four-week period. Do not claim future superiority or deduct guessed penalties from net trial effects."
+}

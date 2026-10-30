@@ -1,0 +1,67 @@
+{
+  "title": "Answers for the teacher",
+  "intro": "These two worked recommendations illustrate numerical effectiveness and reasoned trade-offs. The first has the highest simulated reduction. The second is a close alternative with a prevention focus. Other valid arrangements may be defensible when supported by evidence.",
+  "simulation_note": "All counts are invented classroom simulation data for four weeks, from a baseline of 300 pieces.",
+  "plans": [
+    {
+      "id": "highest-reduction",
+      "heading": "Option 1 — Highest simulated reduction",
+      "allocations": [
+        {
+          "location": "mall",
+          "action": "bins",
+          "reason": "The mall has an outdoor eating area, uncovered bins and discarded food-and-drink packaging. Covered public bins and regular emptying respond to this collection point.",
+          "limitation": "Rubbish still needs to be put into the bins, and the emptying service must continue. Bins do not stop disposable packaging being used."
+        },
+        {
+          "location": "beach",
+          "action": "cleanup",
+          "reason": "Rubbish is spread near the entrance and farther across the sand. A cleanup team can collect litter away from the existing entrance bins.",
+          "limitation": "New rubbish may appear between weekly visits, so ongoing collection is needed."
+        },
+        {
+          "location": "suburbs",
+          "action": "drain",
+          "reason": "Rain can carry packaging from the kerb into roadside drains. The main drain is accessible to a council maintenance team, making capture and servicing plausible in this scenario.",
+          "limitation": "The basket needs emptying and only catches rubbish that reaches the fitted drain."
+        }
+      ],
+      "unused_action": "refill",
+      "summary": "This arrangement reduces 130 pieces in the four-week simulation, leaving 170. It is the unique highest numerical total under the allocation rule. Much of the approach manages rubbish after disposal rather than reducing disposable consumption.",
+      "expected_total": 130,
+      "expected_remaining": 170,
+      "calculation_policy": "Derive displayed effects and totals from actions.json at runtime; expected_total is a validation check, not a second editable effects matrix."
+    },
+    {
+      "id": "prevention-alternative",
+      "heading": "Option 2 — Close alternative with a prevention focus",
+      "allocations": [
+        {
+          "location": "mall",
+          "action": "refill",
+          "reason": "Shopkeepers are willing to accept reusable bottles and food containers. Refill/reuse acts on disposable consumption where sellers and customers meet.",
+          "limitation": "Customers need to bring and use reusable items; it does not directly collect existing litter."
+        },
+        {
+          "location": "beach",
+          "action": "bins",
+          "reason": "The beach is busy with visitors carrying packaged food and drinks. The bin package has its highest simulated effect here, at 50 pieces.",
+          "limitation": "Entrance collection points may miss rubbish farther across the sand, and bins still need use and emptying."
+        },
+        {
+          "location": "suburbs",
+          "action": "drain",
+          "reason": "The roadside drain pathway and council access make a serviced litter basket a reasonable fit.",
+          "limitation": "It needs maintenance and leaves rubbish outside that drainage route unaddressed."
+        }
+      ],
+      "unused_action": "cleanup",
+      "summary": "This arrangement reduces 125 pieces, leaving 175. It gives up five pieces of simulated reduction compared with Option 1 while including prevention of some disposable packaging at the mall. It is second by numerical total, not a second mathematical maximum. The prevention argument is defensible, but the data do not prove better long-term outcomes.",
+      "expected_total": 125,
+      "expected_remaining": 175,
+      "calculation_policy": "Derive displayed effects and totals from actions.json at runtime; expected_total is a validation check, not a second editable effects matrix."
+    }
+  ],
+  "comparison_note": "A larger total is evidence, not a complete justification. Ask learners to connect the choice to a place clue and recognise a limitation. Distinguish results inside the simulation from judgments about participation, maintenance and future effects.",
+  "display_policy": "This screen is intentionally reachable in the top navigation without a password, hidden route or warning gate because the website is a university sample. It is not a separate teaching resource or the individual exit slip. Keep the activity screens free of automatic answer selection/scoring."
+}

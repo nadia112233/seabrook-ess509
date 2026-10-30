@@ -1,0 +1,127 @@
+[
+  {
+    "id": "bins",
+    "letter": "A",
+    "name": "Better public bins",
+    "summary": "Add covered public bins at useful collection points, with regular emptying.",
+    "sections": [
+      {
+        "heading": "What Seabrook would do",
+        "text": "Place covered public rubbish bins at selected collection points in one location. Arrange a service to empty them regularly throughout the four-week trial."
+      },
+      {
+        "heading": "How it works",
+        "text": "People can put rubbish into a bin when they finish using an item. The cover helps contain the rubbish inside. The collection service takes the contents away."
+      }
+    ],
+    "key_points": [
+      "Add covered public bins at selected collection points.",
+      "People put their rubbish inside.",
+      "A service empties the bins regularly during the trial."
+    ],
+    "effects": {
+      "mall": 45,
+      "beach": 50,
+      "suburbs": 30
+    },
+    "icon_path": "assets/action-icons/bins.webp",
+    "icon_alt": "Covered public rubbish bin.",
+    "mechanism_source_ids": [
+      "nsw-litter"
+    ]
+  },
+  {
+    "id": "refill",
+    "letter": "B",
+    "name": "Refill and reuse",
+    "summary": "Provide a refill point and work with sellers to support reusable bottles and food containers.",
+    "sections": [
+      {
+        "heading": "What Seabrook would do",
+        "text": "Set up a water refill point in one location. Work with nearby food and drink sellers, where present, to accept reusable bottles and food containers during the trial."
+      },
+      {
+        "heading": "How it works",
+        "text": "People bring a reusable bottle to fill with water. Participating sellers serve food or drinks in customers’ reusable containers. These items are used again in place of some disposable packaging."
+      }
+    ],
+    "key_points": [
+      "Set up a water refill point.",
+      "Work with nearby sellers, where present, to accept reusable containers.",
+      "People bring bottles or containers and use them again instead of some disposable packaging."
+    ],
+    "effects": {
+      "mall": 35,
+      "beach": 20,
+      "suburbs": 10
+    },
+    "icon_path": "assets/action-icons/refill.webp",
+    "icon_alt": "Reusable bottle beside a water refill tap and a reusable food container.",
+    "mechanism_source_ids": [
+      "nsw-litter"
+    ]
+  },
+  {
+    "id": "cleanup",
+    "letter": "C",
+    "name": "Regular litter collection",
+    "summary": "Send a cleanup team to collect loose rubbish once each week.",
+    "sections": [
+      {
+        "heading": "What Seabrook would do",
+        "text": "Assign an equipped cleanup team to one location. The team visits once each week during the four-week trial."
+      },
+      {
+        "heading": "How it works",
+        "text": "The team collects loose plastic litter from the chosen area and takes it away for appropriate disposal. Team members can work across the area, including places away from fixed rubbish bins."
+      }
+    ],
+    "key_points": [
+      "A cleanup team visits one location once each week.",
+      "The team collects loose plastic litter across the area.",
+      "The team takes the collected rubbish away."
+    ],
+    "effects": {
+      "mall": 20,
+      "beach": 45,
+      "suburbs": 25
+    },
+    "icon_path": "assets/action-icons/cleanup.webp",
+    "icon_alt": "Litter picker lifting a wrapper into a collection bag.",
+    "mechanism_source_ids": [
+      "nsw-stormwater"
+    ]
+  },
+  {
+    "id": "drain",
+    "letter": "D",
+    "name": "Drain litter basket",
+    "summary": "Fit a litter-catching basket inside a suitable drain, with scheduled emptying.",
+    "sections": [
+      {
+        "heading": "What Seabrook would do",
+        "text": "A council maintenance team installs a litter basket inside a suitable stormwater drain at one location. The team returns to empty it on a schedule during the trial."
+      },
+      {
+        "heading": "How it works",
+        "text": "Water passes through the basket while larger pieces of litter are caught. The maintenance team removes the caught rubbish. The basket sits inside the drain rather than on top of the road."
+      }
+    ],
+    "key_points": [
+      "A council team fits a litter basket inside a suitable stormwater drain.",
+      "Water passes through and larger pieces of litter are caught.",
+      "The team returns to empty the basket during the trial."
+    ],
+    "effects": {
+      "mall": 30,
+      "beach": 0,
+      "suburbs": 40
+    },
+    "icon_path": "assets/action-icons/drain.webp",
+    "icon_alt": "Cutaway of a drain with a fitted mesh basket catching plastic litter below the grate.",
+    "mechanism_source_ids": [
+      "nsw-stormwater",
+      "nsw-litter-basket"
+    ]
+  }
+]

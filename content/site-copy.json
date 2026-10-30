@@ -1,0 +1,102 @@
+{
+  "title": "Nadia Faisal ESS509 Sample Resource",
+  "subtitle": "Seabrook — Choose actions to reduce plastic litter",
+  "header_alignment": "center",
+  "scope": {
+    "website_resources": [
+      "R1",
+      "R2"
+    ],
+    "teacher_screen": "Publicly accessible Answers for the teacher screen, authorised for this university sample.",
+    "exit_slip": "Created separately by the user; do not build an exit-slip form or recorder. The third website screen is teacher answers, not R3."
+  },
+  "navigation": [
+    {
+      "id": "explore",
+      "label": "Explore Seabrook"
+    },
+    {
+      "id": "plan",
+      "label": "Test your plan"
+    },
+    {
+      "id": "teacher",
+      "label": "Answers for the teacher"
+    }
+  ],
+  "welcome": "Seabrook is a fictional coastal community. Explore its shopping mall, beach and suburbs. Then decide where three different actions could help reduce plastic litter.",
+  "explore_intro": "Choose a location on the map, or use the location buttons. Read or listen to what happens there. Look for clues that will help you compare actions.",
+  "explore_instruction": "Open a labelled feature to read about it, or choose Read all location information.",
+  "planning_intro": "Choose one action for each location. Each action can be used once. Leave one action unused. Try two different arrangements and compare your reasons.",
+  "allocation_rule_explanation": "For this trial, Seabrook has one package for each action. Each package can go to one location. The community will use three packages.",
+  "simulation_label": "Classroom simulation — invented numbers",
+  "simulation_explanation": "Imagine that each location would have 100 pieces of loose plastic litter during four weeks without a new action. The action numbers show how many pieces are prevented, collected or caught during those four weeks. They are made up for this activity.",
+  "effects_heading": "Simulated litter reduction over four weeks",
+  "effects_unit": "pieces of plastic litter reduced",
+  "counting_note": "Count each piece once, at the place where it came from. Rubbish moving to another place is not counted again.",
+  "judgment_note": "Compare the numbers and the location clues. A recommendation needs a reason and a possible limitation.",
+  "handoff_to_individual_task": "Keep your comparison ready. Your teacher will provide a separate task for your own recommendation.",
+  "controls": {
+    "read": "Read aloud",
+    "stop": "Stop reading",
+    "full_text": "More detail",
+    "key_points": "Show key points",
+    "numbers": "Help with numbers",
+    "comparison": "Help me compare",
+    "focus": "Focus on one location",
+    "all_information": "Read all location information",
+    "back_to_map": "Back to map",
+    "close": "Close",
+    "save_one": "Save as Plan 1",
+    "save_two": "Save as Plan 2",
+    "compare": "Compare plans",
+    "return_to_plan": "Keep working on this plan",
+    "print": "Print",
+    "reset": "Clear this arrangement",
+    "keep": "Keep it",
+    "change": "Change it",
+    "not_sure": "Not sure yet"
+  },
+  "feedback": {
+    "action_selected": "{action} selected. Choose a location.",
+    "assigned": "{action} is now at {location}.",
+    "already_assigned": "This action is at {location}. Choose Move action if you want to use it somewhere else.",
+    "occupied": "{location} already has {action}. Choose Replace or Swap before changing it.",
+    "incomplete": "Choose one action for each location before saving a complete plan.",
+    "saved": "{plan} saved for comparison.",
+    "reset_question": "Clear this working arrangement? Your saved plans will stay.",
+    "reset_confirm": "Clear working arrangement",
+    "audio_unavailable": "Read-aloud is not available in this browser. You can still read the text or ask someone to read with you.",
+    "storage_note": "Saved plans are on this device and browser. They are not submitted to your teacher."
+  },
+  "vocabulary": [
+    {
+      "term": "Evidence",
+      "definition": "Information that supports a reason, such as a location detail or a number."
+    },
+    {
+      "term": "Reduction",
+      "definition": "A smaller amount. Here, it means fewer pieces of loose plastic litter."
+    },
+    {
+      "term": "Limitation",
+      "definition": "Something an action may miss, or something it depends on."
+    },
+    {
+      "term": "Reusable",
+      "definition": "Made to be used again."
+    },
+    {
+      "term": "Stormwater drain",
+      "definition": "A drain that carries away rainwater from streets or other hard surfaces."
+    },
+    {
+      "term": "Kerb",
+      "definition": "The raised edge beside a road."
+    },
+    {
+      "term": "Trial",
+      "definition": "A period for trying something. Seabrook’s trial lasts four weeks."
+    }
+  ]
+}
